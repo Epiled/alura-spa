@@ -1,29 +1,20 @@
-body {
-  margin: 0;
-  padding: 0;
+html, body {
+  font-family: "Roboto", sans-serif;
 }
 
-.container {
-  display: flex;
-  height: 100vh;
-}
-.container .esquerda {
-  width: 50%;
-  background: #fa58b6;
-}
-.container .esquerda .texto {
-  margin-top: 40%;
+nav {
   text-align: center;
-  font-size: 150px;
-  color: #270082;
 }
-.container .direita {
-  width: 50%;
-  background: #270082;
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
 }
-.container .direita .texto {
-  margin-top: 40%;
-  text-align: center;
-  font-size: 150px;
-  color: #fa58b6;
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #495371;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #74959A;
 }/*# sourceMappingURL=style.css.map */

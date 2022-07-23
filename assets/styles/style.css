@@ -1,1 +1,29 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+.container .esquerda {
+  width: 50%;
+  background: #fa58b6;
+}
+.container .esquerda .texto {
+  margin-top: 40%;
+  text-align: center;
+  font-size: 150px;
+  color: #270082;
+}
+.container .direita {
+  width: 50%;
+  background: #270082;
+}
+.container .direita .texto {
+  margin-top: 40%;
+  text-align: center;
+  font-size: 150px;
+  color: #fa58b6;
+}/*# sourceMappingURL=style.css.map */

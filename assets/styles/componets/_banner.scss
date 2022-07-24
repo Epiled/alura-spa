@@ -14,11 +14,11 @@
     opacity: 0.9;
     border-radius: 45px;
     h1 {
-      font-size: $tamnho-do-texto;
+      font-size: $tamanho-do-texto;
       color: $cor-primaria;
     }
     h2 {
-      font-size: $tamnho-do-texto / 2;
+      font-size: calc($tamanho-do-texto / 2);
       color: $cor-secundaria;
     }
   }

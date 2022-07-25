@@ -2,20 +2,20 @@ html, body {
   font-family: "Roboto", sans-serif;
 }
 
-nav {
+.navbar {
   text-align: center;
 }
-nav ul li {
+.navbar_item {
   display: inline-block;
   padding: 1rem;
 }
-nav ul li a {
+.navbar_link {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
   color: #495371;
 }
-nav ul li a:hover {
+.navbar_link:hover {
   border-bottom: 2px solid #74959A;
 }
 
@@ -117,7 +117,8 @@ nav ul li a:hover {
   border-bottom: 6px solid #74959A;
 }
 .servicos .cards .card_imagem {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .cupom {
@@ -132,8 +133,15 @@ nav ul li a:hover {
 }
 .cupom_texto {
   color: #495371;
-  margin: 2rem;
+  margin: 2rem 0;
   font-size: 1.7647058824rem;
+}
+.cupom_etiqueta {
+  display: block;
+  font-size: 500;
+  font-size: 1.3333333333rem;
+  margin-bottom: 1rem;
+  color: #495371;
 }
 .cupom_campos {
   margin: 0 auto;

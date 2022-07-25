@@ -9,11 +9,13 @@
   <title>Alura SPA</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet preload prefetch" as="style" 
+  <link rel="stylesheet preload prefetch" as="style"
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     crossorigin="anonymous">
-  <link rel="stylesheet preload prefetch" as="style" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&display=swap"crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  <link rel="stylesheet preload prefetch" as="style"
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&display=swap"
+    crossorigin="anonymous">
+  <link  rel="stylesheet preload prefetch" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
@@ -23,16 +25,16 @@
 <body>
 
   <header>
-    <nav>
+    <nav class="navbar">
       <ul>
-        <li>
-          <a href="#">Serviços</a>
+        <li class="navbar_item">
+          <a class="navbar_link" href="#">Serviços</a>
         </li>
-        <li>
-          <a href="#">Curiosidades</a>
+        <li class="navbar_item">
+          <a class="navbar_link" href="#">Curiosidades</a>
         </li>
-        <li>
-          <a href="#">Nosso espaço</a>
+        <li class="navbar_item">
+          <a class="navbar_link" href="#">Nosso espaço</a>
         </li>
       </ul>
     </nav>
@@ -53,7 +55,8 @@
             <img class="card_imagem" src="./assets/img/beleza.webp" width="548" height="365" alt="">
           </div>
           <h5 class="card_titulo">Bem-estar</h5>
-          <p class="card_texto">Estar bem com nós mesmos faz toda a diferença. Aproveite nossos tratamentos para ter um momento de
+          <p class="card_texto">Estar bem com nós mesmos faz toda a diferença. Aproveite nossos tratamentos para ter um
+            momento de
             auto-cuidado e aumentar a sua auto-estima</p>
         </div>
         <div class="card">
@@ -61,7 +64,8 @@
             <img class="card_imagem" src="./assets/img/bem-estar.webp" width="548" height="365" alt="">
           </div>
           <h5 class="card_titulo">Renovação</h5>
-          <p class="card_texto">Você merece relaxar. Confira as nossas opções de massagens que vão fazer você renovar as energias e
+          <p class="card_texto">Você merece relaxar. Confira as nossas opções de massagens que vão fazer você renovar as
+            energias e
             esquecer do estresse do dia-a-dia</p>
         </div>
         <div class="card">
@@ -69,7 +73,8 @@
             <img class="card_imagem" src="./assets/img/descanso.webp" width="548" height="365" alt="">
           </div>
           <h5 class="card_titulo">Massagem</h5>
-          <p class="card_texto">Se você precisa de um dia especial para cuidar de você, preparamos opções que promovem uma renovação
+          <p class="card_texto">Se você precisa de um dia especial para cuidar de você, preparamos opções que promovem
+            uma renovação
             completa. Confira nossos dias especiais, banhos e tratamentos holísticos. </p>
         </div>
       </div>
@@ -80,19 +85,24 @@
       </div>
       <div>
         <form action="">
+          <label for="email" class="cupom_etiqueta">
+            Preencha seu com seu E-mail
+          </label>
           <div class="cupom_campos">
-            <input class="cupom_campo" type="email">
+            <input id="email" name="email" class="cupom_campo" type="email">
           </div>
           <button class="cupom_botao">enviar!</button>
         </form>
       </div>
     </section>
     <section class="curiosidades">
-        <img class="curiosidades_imagem" src="./assets/img/pedra-e-flor.webp" width="556" height="308" alt="">
+      <img class="curiosidades_imagem" src="./assets/img/pedra-e-flor.webp" width="556" height="308"
+        alt="Flor de Lotus e Pedras de relaxamento">
       <div>
         <h3 class="curiosidades_titulo">É sobre bem estar</h3>
         <h4 class="curiosidades_subtitulo">Cuide do seu corpo e leve boas memórias consigo.</h4>
-        <p class="curiosidades_texto">Carregue com você o bem-estar, onde estiver. Leve o conforto do SPA para a sua casa. Confira nossas opções de
+        <p class="curiosidades_texto">Carregue com você o bem-estar, onde estiver. Leve o conforto do SPA para a sua
+          casa. Confira nossas opções de
           sabonetes, sais de banho e velas para presentear você mesmo ou quem você ama. </p>
       </div>
     </section>

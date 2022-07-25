@@ -58,7 +58,8 @@
         border-bottom: 6px solid $cor-secundaria;
       }
       &_imagem {
-        max-width: 100%;
+        width: 100%;
+        height: auto;
       }
     }
   }

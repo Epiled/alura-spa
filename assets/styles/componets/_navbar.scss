@@ -2,11 +2,46 @@
 
 .navbar {
   text-align: center;
-  &_item {
-    display: inline-block;
-    padding: 1rem;
+  &_icone {
+    width: 50px;
+    padding: .5rem 0;
+    font-size: 35px;
+    margin-left: auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+    color: $cor-primaria;
+    &:hover {
+      color: $cor-secundaria;
+    }
+  }
+  &_icone {
+    @include for-tablet-only {
+      display: none;
+    }
+  }
+  &_lista {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: white;
+    z-index: 1;
+    width: 100%;
+    top: -100%;
+    left: 0;
+    transition: top 1s;
+    &-ativo {
+      top: 50px;
+    }
+    @include for-tablet-only {
+      position: static;
+      flex-direction: row;
+      justify-content: center;
+    }
   }
   &_link {
+    display: inline-block;
+    padding: 1rem;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;

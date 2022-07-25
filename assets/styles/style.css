@@ -5,11 +5,48 @@ html, body {
 .navbar {
   text-align: center;
 }
-.navbar_item {
-  display: inline-block;
-  padding: 1rem;
+.navbar_icone {
+  width: 50px;
+  padding: 0.5rem 0;
+  font-size: 35px;
+  margin-left: auto;
+  display: block;
+  position: relative;
+  z-index: 2;
+  color: #495371;
+}
+.navbar_icone:hover {
+  color: #74959A;
+}
+@media screen and (min-width: 768px) {
+  .navbar_icone {
+    display: none;
+  }
+}
+.navbar_lista {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: white;
+  z-index: 1;
+  width: 100%;
+  top: -100%;
+  left: 0;
+  transition: top 1s;
+}
+.navbar_lista-ativo {
+  top: 50px;
+}
+@media screen and (min-width: 768px) {
+  .navbar_lista {
+    position: static;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 .navbar_link {
+  display: inline-block;
+  padding: 1rem;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;

@@ -49,7 +49,7 @@
     text-align: center;
     width: 130px;
     background-color: $cor-primaria;
-    color: $cor-secundaria;
+    color: $cor-terciaria;
     letter-spacing: 1px;
     font-size: 12px;
     font-weight: bold;
@@ -57,7 +57,6 @@
     border: 2px solid $cor-primaria;
     border-radius: 40px;
     &:hover {
-      color: $cor-primaria;
       background-color: $cor-secundaria;
       border-color: $cor-terciaria;
     }

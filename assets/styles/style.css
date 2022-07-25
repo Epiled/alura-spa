@@ -118,7 +118,8 @@ html, body {
     margin: 1rem;
   }
 }
-.servicos .cards {
+
+.cards {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -126,34 +127,35 @@ html, body {
   align-items: center;
 }
 @media screen and (min-width: 768px) {
-  .servicos .cards {
+  .cards {
     flex-direction: row;
     align-items: flex-start;
   }
 }
-.servicos .cards .card {
+
+.card {
   width: 100%;
   max-width: 360px;
   text-align: center;
 }
-.servicos .cards .card_titulo {
+.card_titulo {
   font-size: 2rem;
   font-weight: 300;
   margin-top: 25px;
   margin-bottom: 20px;
   color: #495371;
 }
-.servicos .cards .card_texto {
+.card_texto {
   font-size: 1rem;
   font-weight: 300;
   color: #495371;
   line-height: 1.25rem;
 }
-.servicos .cards .card_moldura {
+.card_moldura {
   padding-bottom: 2px;
   border-bottom: 6px solid #74959A;
 }
-.servicos .cards .card_imagem {
+.card_imagem {
   width: 100%;
   height: auto;
 }

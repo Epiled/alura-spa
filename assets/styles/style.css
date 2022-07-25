@@ -50,21 +50,36 @@ nav ul li a:hover {
 }
 
 .servicos {
-  margin: 80px;
+  margin: 40px;
 }
-.servicos h4 {
+@media screen and (min-width: 768px) {
+  .servicos {
+    margin: 80px;
+  }
+}
+.servicos_titulo {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+@media screen and (min-width: 768px) {
+  .servicos_titulo {
+    margin-bottom: 80px;
+  }
+}
+.servicos_subtitulo {
   font-size: 1.2rem;
   color: #74959A;
   text-transform: uppercase;
   font-weight: 300;
   text-align: center;
-  margin: 1rem;
+  margin: 1rem 0;
 }
-.servicos h3 {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 80px;
-  font-weight: 300;
+@media screen and (min-width: 768px) {
+  .servicos_subtitulo {
+    margin: 1rem;
+  }
 }
 .servicos .cards {
   display: flex;

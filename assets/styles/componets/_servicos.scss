@@ -1,21 +1,31 @@
 @import "../abstract/variaveis";
 
 .servicos {
-  margin: 80px;
-  h4 {
+  margin: 40px;
+  @include for-tablet-only {
+    margin: 80px;
+  }
+  &_titulo {
+    text-align: center;
+    font-size: calc($tamanho-do-texto / 1.2);
+    margin-bottom: 40px;
+    font-weight: 300;
+    @include for-tablet-only {
+      margin-bottom: 80px;
+    }
+  }
+  &_subtitulo {
     font-size: calc($tamanho-do-texto / 2.5);
     color: $cor-secundaria;
     text-transform: uppercase;
     font-weight: 300;
     text-align: center;
-    margin: 1rem;
+    margin: 1rem 0;
+    @include for-tablet-only {
+      margin: 1rem;
+    }
   }
-  h3 {
-    text-align: center;
-    font-size: calc($tamanho-do-texto / 1.2);
-    margin-bottom: 80px;
-    font-weight: 300;
-  }
+  
   .cards {
     display: flex;
     justify-content: space-evenly;

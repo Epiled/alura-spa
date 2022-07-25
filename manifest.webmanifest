@@ -1,0 +1,25 @@
+{
+    "short_name": "Alura SPA",
+    "name": "Alura SPA",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#293462",
+    "them-color": "#293462",
+    "background_color": "#000000",
+    "background-color": "#000000",
+    "description": "Alura SPA",
+    "icons": [
+        {
+            "src": "assets/img/pwa/alura_spa_icone_512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/img/pwa/maskable_icon.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        }
+    ]
+}

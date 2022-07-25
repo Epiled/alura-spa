@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="msapplication-TileColor" content="#293462">
+  <meta name="theme-color" content="#293462">
   <meta name="description" content="Alura SPA">
   <title>Alura SPA</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="./assets/img/pwa/app_icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet preload prefetch" as="style"
@@ -17,7 +22,7 @@
     crossorigin="anonymous">
   <link  rel="stylesheet preload prefetch" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
   <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
@@ -53,7 +58,7 @@
       <div class="cards">
         <div class="card">
           <div class="card_moldura">
-            <img class="card_imagem" src="./assets/img/beleza.webp" width="548" height="365" alt="">
+            <img class="card_imagem" src="./assets/img/beleza.webp" width="548" height="365" alt="#">
           </div>
           <h5 class="card_titulo">Bem-estar</h5>
           <p class="card_texto">Estar bem com nós mesmos faz toda a diferença. Aproveite nossos tratamentos para ter um
@@ -62,7 +67,7 @@
         </div>
         <div class="card">
           <div class="card_moldura">
-            <img class="card_imagem" src="./assets/img/bem-estar.webp" width="548" height="365" alt="">
+            <img class="card_imagem" src="./assets/img/bem-estar.webp" width="548" height="365" alt="#">
           </div>
           <h5 class="card_titulo">Renovação</h5>
           <p class="card_texto">Você merece relaxar. Confira as nossas opções de massagens que vão fazer você renovar as
@@ -71,7 +76,7 @@
         </div>
         <div class="card">
           <div class="card_moldura">
-            <img class="card_imagem" src="./assets/img/descanso.webp" width="548" height="365" alt="">
+            <img class="card_imagem" src="./assets/img/descanso.webp" width="548" height="365" alt="#">
           </div>
           <h5 class="card_titulo">Massagem</h5>
           <p class="card_texto">Se você precisa de um dia especial para cuidar de você, preparamos opções que promovem
@@ -112,6 +117,7 @@
     Estilizado com Sass e com <i class="fas fa-heart rodape_icone"></i>
   </footer>
   <script src="./assets/js/menu.js"></script>
+  <script src="./assets/js/register-sw.js"></script>
 
 </body>
 

@@ -9,8 +9,15 @@
   }
   &_texto {
     color: $cor-primaria;
-    margin: 2rem;
+    margin: 2rem 0;
     font-size: calc($tamanho-do-texto / 1.7);
+  }
+  &_etiqueta {
+    display: block;
+    font-size: 500;
+    font-size: calc($tamanho-do-texto / 2.25);
+    margin-bottom: 1rem;
+    color: $cor-primaria;
   }
   &_campos {
     margin: 0 auto;
@@ -42,7 +49,7 @@
     text-align: center;
     width: 130px;
     background-color: $cor-primaria;
-    color: $cor-secundaria;
+    color: $cor-terciaria;
     letter-spacing: 1px;
     font-size: 12px;
     font-weight: bold;
@@ -50,7 +57,6 @@
     border: 2px solid $cor-primaria;
     border-radius: 40px;
     &:hover {
-      color: $cor-primaria;
       background-color: $cor-secundaria;
       border-color: $cor-terciaria;
     }

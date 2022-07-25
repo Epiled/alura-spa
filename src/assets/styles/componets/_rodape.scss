@@ -1,0 +1,24 @@
+@import "../abstract/variaveis";
+
+@mixin bg-cores($cores...) {
+  background: linear-gradient(to left, $cores);
+}
+
+.rodape {
+  text-align: center;
+  font-size: calc($tamanho-do-texto / 2);
+  border-top: 2px solid $cor-primaria;
+  color: $cor-terciaria;
+  padding: 1.2rem;
+  @include bg-cores(
+    $cor-secundaria,
+    $cor-primaria,
+    $cor-primaria,
+    $cor-primaria,
+    $cor-primaria,
+    $cor-secundaria
+  );
+  &_icone {
+    color: red;
+  }
+}

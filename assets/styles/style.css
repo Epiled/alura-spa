@@ -122,39 +122,44 @@ nav ul li a:hover {
 
 .cupom {
   background-color: #F1E0AC;
-  padding: 4rem;
+  padding: 1rem;
   text-align: center;
 }
-.cupom .texto {
-  color: #495371;
+@media screen and (min-width: 768px) {
+  .cupom {
+    padding: 4rem;
+  }
 }
-.cupom .texto h2 {
+.cupom_texto {
+  color: #495371;
   margin: 2rem;
   font-size: 1.7647058824rem;
 }
-.cupom .input {
+.cupom_campos {
   margin: 0 auto;
-  width: 575px;
+  width: 100%;
+  max-width: 575px;
   border-radius: 20px;
   border: 4px solid white;
   background: white;
+  display: inline-block;
 }
-.cupom .input input {
+.cupom_campo {
   border-radius: 20px;
-  height: 40px;
   border: none;
-  width: 540px;
+  width: 100%;
   outline: none;
   text-align: center;
   font-size: 26px;
 }
-.cupom .input:hover, .cupom .input:focus-within {
+.cupom_campo:hover, .cupom_campo:focus-within {
   box-shadow: 1px 1px 8px 1px #495371;
   outline: none;
 }
-.cupom button {
+.cupom_botao {
+  display: block;
   text-transform: uppercase;
-  margin-top: 0.75rem;
+  margin: 0.75rem auto 0 auto;
   outline: none;
   height: 40px;
   text-align: center;
@@ -168,7 +173,7 @@ nav ul li a:hover {
   border: 2px solid #495371;
   border-radius: 40px;
 }
-.cupom button:hover {
+.cupom_botao:hover {
   color: #495371;
   background-color: #74959A;
   border-color: #F1E0AC;

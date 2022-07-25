@@ -1,25 +1,29 @@
-@import '../abstract/variaveis';
+@import "../abstract/variaveis";
 
 .banner {
-  background: url('../img/banner.jpeg') 27% center no-repeat;
+  background: url("../img/banner.jpeg") 27% center no-repeat;
   min-height: 350px;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   opacity: 0.9;
-  .inner-banner {
-    padding: 3rem;
+  &_conteudo {
+    padding: 1.5rem;
     background: $cor-terciaria;
     opacity: 0.9;
     border-radius: 45px;
-    h1 {
-      font-size: $tamanho-do-texto;
-      color: $cor-primaria;
+    margin: 0 1rem;
+    @include for-tablet-only {
+      padding: 3rem;
     }
-    h2 {
-      font-size: calc($tamanho-do-texto / 2);
-      color: $cor-secundaria;
-    }
+  }
+  &_titulo {
+    font-size: $tamanho-do-texto;
+    color: $cor-primaria;
+  }
+  &_subtitulo {
+    font-size: calc($tamanho-do-texto / 2);
+    color: $cor-secundaria;
   }
 }

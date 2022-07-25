@@ -28,17 +28,23 @@ nav ul li a:hover {
   align-items: center;
   opacity: 0.9;
 }
-.banner .inner-banner {
-  padding: 3rem;
+.banner_conteudo {
+  padding: 1.5rem;
   background: #F1E0AC;
   opacity: 0.9;
   border-radius: 45px;
+  margin: 0 1rem;
 }
-.banner .inner-banner h1 {
+@media screen and (min-width: 768px) {
+  .banner_conteudo {
+    padding: 3rem;
+  }
+}
+.banner_titulo {
   font-size: 3rem;
   color: #495371;
 }
-.banner .inner-banner h2 {
+.banner_subtitulo {
   font-size: 1.5rem;
   color: #74959A;
 }

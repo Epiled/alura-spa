@@ -20,7 +20,7 @@ nav ul li a:hover {
 }
 
 .banner {
-  background: url("../img/banner.webp") 27% center no-repeat;
+  background: url("../img/banner.jpeg") 27% center no-repeat;
   min-height: 350px;
   background-size: cover;
   display: flex;

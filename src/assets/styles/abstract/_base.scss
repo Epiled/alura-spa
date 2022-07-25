@@ -1,0 +1,17 @@
+@import './variaveis';
+
+html, body {
+  font-family: $fonte;
+}
+
+@mixin for-tablet-only {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin for-desktop-only {
+  @media screen and (min-width: 1368px) {
+    @content
+  }
+}

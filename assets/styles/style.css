@@ -194,27 +194,43 @@ footer i {
 .curiosidades {
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
-  padding: 4rem;
+  padding: 1rem;
   gap: 2rem;
 }
-.curiosidades img {
+@media screen and (min-width: 768px) {
+  .curiosidades {
+    padding: 4rem;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+.curiosidades_imagem {
   width: 100%;
   max-width: 500px;
+  height: 100%;
 }
-.curiosidades div h3 {
+@media screen and (min-width: 768px) {
+  .curiosidades_imagem {
+    width: 50%;
+  }
+}
+.curiosidades_titulo {
   margin-bottom: 2rem;
   font-size: 1.5rem;
   font-weight: bold;
   color: #495371;
 }
-.curiosidades div h4 {
+.curiosidades_subtitulo {
   margin-bottom: 1rem;
   font-size: 1.2rem;
   color: #495371;
   padding-bottom: 5px;
   border-bottom: 6px solid #74959A;
 }
-.curiosidades div p {
+.curiosidades_texto {
   font-size: 1rem;
+  line-height: 1.25rem;
 }/*# sourceMappingURL=style.css.map */

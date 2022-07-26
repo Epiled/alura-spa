@@ -56,7 +56,8 @@
 
 <h2 id="performance"> 📈 Performance Lighthouse </h2>
 
-![mobile_first](https://user-images.githubusercontent.com/55258483/179240575-f83027c0-5781-4333-a16c-2ba3f89b9a57.png)
+![alura spa perfomance](https://user-images.githubusercontent.com/55258483/180946541-fba4d42e-8556-41aa-b531-f2d31d482705.png)
+
 
 <h2 id="instalacao"> ⚙ Instalação </h2>
 

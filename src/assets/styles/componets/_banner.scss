@@ -1,7 +1,7 @@
 @import "../abstract/variaveis";
 
 .banner {
-  background: url("../img/banner.jpeg") 27% center no-repeat;
+  background: url("../img/banner-mobile.jpg") 27% center no-repeat;
   min-height: 350px;
   background-size: cover;
   display: flex;
@@ -9,7 +9,7 @@
   align-items: center;
   opacity: 0.9;
   @include for-tablet-only {
-    background-image: url("../img/banner.jpg");
+    background-image: url("../img/banner.jpeg");
   }
   &_conteudo {
     padding: 1.5rem;

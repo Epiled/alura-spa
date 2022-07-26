@@ -1,6 +1,6 @@
 const cacheName = 'Alura SPA';
 
-const versao = 5;
+const versao = 6;
 
 self.addEventListener('install', function(event){
   event.waitUntil(

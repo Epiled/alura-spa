@@ -1,34 +1,42 @@
 ![alura-spa](https://user-images.githubusercontent.com/55258483/180839036-5e1ba89e-9d09-4fbc-8f02-7edbe7df943d.png)
 
-
 <h1 align="center" id="sobre">🔷 💆‍♀️ Alura SPA 💆‍♂️ 🔷</h1>
 
 <p>
   Projeto final do curso <a href="https://cursos.alura.com.br/course/sass-css-sintaticamente-espetacular">SASS: CSS sintaticamente espetacular</a>.
 </p>
 <p>
-  Utilizei o conhecimento de diversar áreas para refatorar certas parte do código e adicionar algumas melhorias 
+  Utilizei o conhecimento de diversas áreas para refatorar certas parte do código e adicionar algumas melhorias 
   com o objetivo de extrair o máximo de perfomance da página.
 </p>
+<p>
+  O projeto original do curso não tem uma versão mobile, então uma refatoração foi realizada, e uma estrutura mobile 
+  pensado em mobile-first foi implementada.
+</p>
+<p>
+  O SASS foi escrito em padrão BEM para uma melhor compreenção e organização de estilos.
+</p>
+<p>
+  Uma PWA foi implementada para o site continuar funcionado mesmo com o usuário estando offline.
+</p>
 
-![Badge](https://img.shields.io/github/last-commit/Epiled/HTML-e-CSS-responsividade-com-mobile-first?style=for-the-badge)
-![Badge](https://img.shields.io/github/languages/code-size/Epiled/HTML-e-CSS-responsividade-com-mobile-first?style=for-the-badge)
-![Badge](https://img.shields.io/github/languages/count/Epiled/HTML-e-CSS-responsividade-com-mobile-first?style=for-the-badge)
+![Badge](https://img.shields.io/github/last-commit/Epiled/SASS-CSS-sintaticamente-espetacular?style=for-the-badge)
+![Badge](https://img.shields.io/github/languages/code-size/Epiled/SASS-CSS-sintaticamente-espetacular?style=for-the-badge)
+![Badge](https://img.shields.io/github/languages/count/Epiled/SASS-CSS-sintaticamente-espetacular?style=for-the-badge)
 ![Bagde](https://img.shields.io/badge/repo%20status-Beta-cyan?style=for-the-badge)
-![Bagde](https://img.shields.io/github/v/release/Epiled/HTML-e-CSS-responsividade-com-mobile-first?style=for-the-badge)
-![Bagde](https://img.shields.io/github/license/Epiled/HTML-e-CSS-responsividade-com-mobile-first?style=for-the-badge)
+![Bagde](https://img.shields.io/github/v/release/Epiled/SASS-CSS-sintaticamente-espetacular?style=for-the-badge)
+![Bagde](https://img.shields.io/github/license/Epiled/SASS-CSS-sintaticamente-espetacular?style=for-the-badge)
 
 ![Badge](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Badge](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Badge](https://img.shields.io/badge/-JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Badge](https://img.shields.io/badge/-Swiperjs-0080FF?style=for-the-badge&logo=swiper&logoColor=white)
-
+![Badge](https://img.shields.io/badge/-SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Badge](https://img.shields.io/badge/-PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
 
 <h2> 📑 Tabela de Conteúdos </h2>
 
 <!--ts-->
    * [Sobre](#sobre)
-   * [Referência](#referencia)
    * [Demonstração](#demonstracao)
    * [Performance](#performance)
    * [Instalação](#instalacao)
@@ -38,21 +46,13 @@
    * [Autor](#autor)
 <!--te-->
 
-<h2 id="referencia"> Referência </h2>
-<p>
-  Os arquivos de wireframes podem ser visto ou editador no seguinte link.
-<p>
-<p>
-  Figma: <a href="https://www.figma.com/file/JTXUlFgtMNBCn2JEkXzMFW/AluraBooks-Ref">HTML e CSS Responsividade com Mobile First</a>
-</p>
-
 <h2 id="demonstracao"> 👀 Demonstração </h2>
 
 <p>No link abaixo você pode ver a página no ar e rodar seus próprios teste de perfomance ou desempenho</p>
-<p>Spotify: <a href="epiled.github.io/spotify/">epiled.github.io/spotify/</a></p>
+<p>Alura SPA: <a href="https://epiled.github.io/SASS-CSS-sintaticamente-espetacular/">https://epiled.github.io/SASS-CSS-sintaticamente-espetacular/</a></p>
 
-![html_e_css_mobile_first_desktop](https://user-images.githubusercontent.com/55258483/178686221-71cee3a8-6b47-4006-afbc-71ab3e001565.gif)
-![html_e_css_mobile_first_mobile](https://user-images.githubusercontent.com/55258483/178686235-efd3fcbf-81cb-432a-ba79-e38ba89bdd14.gif)
+![desktop-alura-spa](https://user-images.githubusercontent.com/55258483/180921223-31b4e242-cc9f-4a12-930b-4add79bc862d.gif)
+![mobile-alura-spa](https://user-images.githubusercontent.com/55258483/180921233-d0942bfd-91a5-47e2-8f29-451f93bdb9b3.gif)
 
 <h2 id="performance"> 📈 Performance Lighthouse </h2>
 
@@ -61,8 +61,8 @@
 <h2 id="instalacao"> ⚙ Instalação </h2>
 
 ```
-1. git clone https://github.com/Epiled/HTML-e-CSS-responsividade-com-mobile-first.git
-2. cd HTML-e-CSS-responsividade-com-mobile-first
+1. git clone https://github.com/Epiled/SASS-CSS-sintaticamente-espetacular.git
+2. cd SASS-CSS-sintaticamente-espetacular
 ```
 
 <h2 id="como-usar"> 👩‍🏫 Como usar </h2>
@@ -78,7 +78,8 @@ As seguintes tecnologias foram usadas na construção deste projeto:
   <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML5</a></li>
   <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS3</a></li>
   <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">Javascript</a></li>
-  <li><a href="https://swiperjs.com/" target="_blank">SwiperJS</a></li>
+  <li><a href="https://sass-lang.com/" target="_blank">SASS</a></li>
+  <li><a href="https://web.dev/i18n/pt/progressive-web-apps//" target="_blank">PWA</a></li>
 </ul>
 
 <h2 id="autor"> 👨‍💻 Autor </h2>

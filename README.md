@@ -20,12 +20,12 @@
   Uma PWA foi implementada para o site continuar funcionado mesmo com o usuário estando offline.
 </p>
 
-![Badge](https://img.shields.io/github/last-commit/Epiled/SASS-CSS-sintaticamente-espetacular?style=for-the-badge)
-![Badge](https://img.shields.io/github/languages/code-size/Epiled/SASS-CSS-sintaticamente-espetacular?style=for-the-badge)
-![Badge](https://img.shields.io/github/languages/count/Epiled/SASS-CSS-sintaticamente-espetacular?style=for-the-badge)
+![Badge](https://img.shields.io/github/last-commit/Epiled/alura-spa?style=for-the-badge)
+![Badge](https://img.shields.io/github/languages/code-size/Epiled/alura-spa?style=for-the-badge)
+![Badge](https://img.shields.io/github/languages/count/Epiled/alura-spa?style=for-the-badge)
 ![Bagde](https://img.shields.io/badge/repo%20status-Beta-cyan?style=for-the-badge)
-![Bagde](https://img.shields.io/github/v/release/Epiled/SASS-CSS-sintaticamente-espetacular?style=for-the-badge)
-![Bagde](https://img.shields.io/github/license/Epiled/SASS-CSS-sintaticamente-espetacular?style=for-the-badge)
+![Bagde](https://img.shields.io/github/v/release/Epiled/alura-spa?style=for-the-badge)
+![Bagde](https://img.shields.io/github/license/Epiled/alura-spa?style=for-the-badge)
 
 ![Badge](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Badge](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -49,7 +49,7 @@
 <h2 id="demonstracao"> 👀 Demonstração </h2>
 
 <p>No link abaixo você pode ver a página no ar e rodar seus próprios teste de perfomance ou desempenho</p>
-<p>Alura SPA: <a href="https://epiled.github.io/SASS-CSS-sintaticamente-espetacular/">https://epiled.github.io/SASS-CSS-sintaticamente-espetacular/</a></p>
+<p>Alura SPA: <a href="https://epiled.github.io/alura-spa/">https://epiled.github.io/alura-spa/</a></p>
 
 ![desktop-alura-spa](https://user-images.githubusercontent.com/55258483/180921223-31b4e242-cc9f-4a12-930b-4add79bc862d.gif)
 ![mobile-alura-spa](https://user-images.githubusercontent.com/55258483/180921233-d0942bfd-91a5-47e2-8f29-451f93bdb9b3.gif)
@@ -62,8 +62,8 @@
 <h2 id="instalacao"> ⚙ Instalação </h2>
 
 ```
-1. git clone https://github.com/Epiled/SASS-CSS-sintaticamente-espetacular.git
-2. cd SASS-CSS-sintaticamente-espetacular
+1. git clone https://github.com/Epiled/alura-spa.git
+2. cd alura-spa
 ```
 
 <h2 id="como-usar"> 👩‍🏫 Como usar </h2>

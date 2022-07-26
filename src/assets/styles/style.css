@@ -66,6 +66,11 @@ html, body {
   align-items: center;
   opacity: 0.9;
 }
+@media screen and (min-width: 768px) {
+  .banner {
+    background-image: url("../img/banner.jpg");
+  }
+}
 .banner_conteudo {
   padding: 1.5rem;
   background: #FEB139;

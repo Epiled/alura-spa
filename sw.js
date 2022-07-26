@@ -16,6 +16,7 @@ self.addEventListener('install', function(event){
 
         './assets/img/favicon.png',
         './assets/img/banner.webp',
+        './assets/img/banner-mobile.webp',
         './assets/img/bem-estar.webp',
         './assets/img/descanso.webp',
         './assets/img/interior-1.webp',

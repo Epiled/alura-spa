@@ -1,13 +1,16 @@
 @import "../abstract/variaveis";
 
 .banner {
-  background: url("../img/banner.webp") 27% center no-repeat;
+  background: url("../img/banner-mobile.webp") 27% center no-repeat;
   min-height: 350px;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   opacity: 0.9;
+  @include for-tablet-only {
+    background-image: url("../img/banner.webp");
+  }
   &_conteudo {
     padding: 1.5rem;
     background: $cor-terciaria;

@@ -35,6 +35,7 @@
     outline: none;
     text-align: center;
     font-size: 26px;
+    box-sizing: border-box;
     &:hover, &:focus-within {
       box-shadow: 1px 1px 8px 1px $cor-primaria;
       outline: none;

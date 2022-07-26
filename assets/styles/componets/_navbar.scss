@@ -46,6 +46,7 @@
     text-decoration: none;
     font-weight: bold;
     color: $cor-primaria;
+    border-bottom: 2px solid transparent;
     &:hover {
       border-bottom: 2px solid $cor-secundaria;
     }
